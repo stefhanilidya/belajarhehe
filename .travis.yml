@@ -48,7 +48,7 @@
     "file": [
       "$TRAVIS_BUILD_DIR/app/build/outputs/apk/release/app-release.apk"
     ],
-    "skip_cleanup": true,
+    "cleanup": true,
     "name": "dev-build-$TRAVIS_TAG",
     "prerelease": true,
     "overwrite": true,
